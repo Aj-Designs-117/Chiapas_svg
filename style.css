@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: #FAF3F0;
+}
+
+img,
+svg { vertical-align: middle; }
+
+.map{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.map__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.map__svg{
+    width: 700.04999px;
+    height: 587.56px;
+}
+path{ 
+    fill:#7A9D54;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#ffffff;
+    stroke-width:1.5250659;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    stroke-opacity:1;
+    transition: transform 0.5s ease-in-out;
+}
+
+path:hover{
+    fill: #8CC0DE;
+    transform: scale(1.01, 1.01);
+}
